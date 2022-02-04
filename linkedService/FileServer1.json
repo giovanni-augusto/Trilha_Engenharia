@@ -1,0 +1,17 @@
+{
+	"name": "FileServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\Users\\giovanni.silva.gomes\\Desktop\\Analytics\\TrilhaEngExercicio",
+			"userId": "avanade-corp\\giovanni.silva.gomes",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5M2VlOGFhYS1kMGUzLTQ4MWQtYWZjOC1jNWNjOTAzZmQ5MDkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
